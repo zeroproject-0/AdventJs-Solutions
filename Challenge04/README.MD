@@ -6,7 +6,7 @@ Para ello vamos a crear una función que recibe la altura del árbol, que será 
 
 Si le pasamos el argumento `5`, se pintaría esto:
 
-```javascript
+```
 ____*____
 ___***___
 __*****__
@@ -21,7 +21,7 @@ Todos los árboles, por pequeños o grandes que sean, tienen un tronco de dos l�
 
 Otro ejemplo con un árbol de altura `3`:
 
-```javascript
+```
 __*__
 _***_
 *****

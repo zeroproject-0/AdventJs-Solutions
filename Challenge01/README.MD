@@ -15,11 +15,10 @@ const ovejas = [
 
 Al ejecutar el método debería devolver lo siguiente:
 
-const ovejasFiltradas = contarOvejas(ovejas)
-
-console.log(ovejasFiltradas)
-
 ```javascript
+const ovejasFiltradas = contarOvejas(ovejas);
+console.log(ovejasFiltradas);
+
 // [{ name: 'Navidad', color: 'rojo' },
 //  { name: 'Ki Na Ma', color: 'rojo' }]
 ```
