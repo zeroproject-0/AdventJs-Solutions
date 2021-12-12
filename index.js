@@ -9,6 +9,7 @@ const maxProfit = require('./Challenge08/index');
 const groupBy = require('./Challenge09/index');
 const getCoins = require('./Challenge10/index');
 const shouldBuyFidelity = require('./Challenge11/index');
+const getMinJump = require('./Challenge12/index');
 
 (() => {
 	// console.log( contarOvejas([ { name: 'Noa', color: 'azul' }, { name: 'Euge', color: 'rojo' }, { name: 'Navidad', color: 'rojo' }, { name: 'Ki Na Ma', color: 'rojo' }, ]));
@@ -22,4 +23,5 @@ const shouldBuyFidelity = require('./Challenge11/index');
 	// console.log(groupBy([6.1, 4.2, 6.3], Math.floor));
 	// console.log(getCoins(51));
 	// console.log(shouldBuyFidelity(1));
+	// console.log(getMinJump([5, 3, 6, 7, 9]));
 })();
