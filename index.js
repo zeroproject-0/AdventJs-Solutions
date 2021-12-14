@@ -11,6 +11,7 @@ const getCoins = require('./Challenge10/index');
 const shouldBuyFidelity = require('./Challenge11/index');
 const getMinJump = require('./Challenge12/index');
 const wrapGifts = require('./Challenge13/index');
+const missingReindeer = require('./Challenge14/index');
 
 (() => {
 	// console.log( contarOvejas([ { name: 'Noa', color: 'azul' }, { name: 'Euge', color: 'rojo' }, { name: 'Navidad', color: 'rojo' }, { name: 'Ki Na Ma', color: 'rojo' }, ]));
@@ -26,4 +27,5 @@ const wrapGifts = require('./Challenge13/index');
 	// console.log(shouldBuyFidelity(1));
 	// console.log(getMinJump([5, 3, 6, 7, 9]));
 	// console.log(wrapGifts(['📷', '⚽️']));
+	// console.log(missingReindeer([0, 2, 3]));
 })();
