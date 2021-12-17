@@ -13,6 +13,7 @@ const getMinJump = require('./Challenge12/index');
 const wrapGifts = require('./Challenge13/index');
 const missingReindeer = require('./Challenge14/index');
 const checkSledJump = require('./Challenge15/index');
+const decodeNumbers = require('./Challenge16/index');
 
 (() => {
 	// console.log( contarOvejas([ { name: 'Noa', color: 'azul' }, { name: 'Euge', color: 'rojo' }, { name: 'Navidad', color: 'rojo' }, { name: 'Ki Na Ma', color: 'rojo' }, ]));
@@ -30,4 +31,5 @@ const checkSledJump = require('./Challenge15/index');
 	// console.log(wrapGifts(['📷', '⚽️']));
 	// console.log(missingReindeer([0, 2, 3]));
 	// console.log(checkSledJump([1, 2, 3, 2, 1]));
+	// console.log(decodeNumbers(';.W'));
 })();
