@@ -17,6 +17,7 @@ const decodeNumbers = require('./Challenge16/index');
 const countPackages = require('./Challenge17/index');
 const fixFiles = require('./Challenge18/index');
 const learn = require('./Challenge19/index');
+const pangram = require('./Challenge20/index');
 
 (() => {
 	// console.log( contarOvejas([ { name: 'Noa', color: 'azul' }, { name: 'Euge', color: 'rojo' }, { name: 'Navidad', color: 'rojo' }, { name: 'Ki Na Ma', color: 'rojo' }, ]));
@@ -38,4 +39,5 @@ const learn = require('./Challenge19/index');
 	// console.log(countPackages([['dapelu', 5, ['midu', 'jelowing']],['midu', 2, []],['jelowing', 2, []],],'dapelu'));
 	// console.log(fixFiles(['file', 'file(1)', 'icon', 'icon(1)', 'icon(1)']));
 	// console.log(learn(10, [2, 3, 8, 1, 4]));
+	// console.log(pangram('Extraño pan de col y kiwi se quemó bajo fugaz vaho'));
 })();
