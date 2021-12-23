@@ -20,6 +20,7 @@ const learn = require('./Challenge19/index');
 const pangram = require('./Challenge20/index');
 const canCarry = require('./Challenge21/index');
 const countDecorations = require('./Challenge22/index');
+const canReconfigure = require('./Challenge23/index');
 
 (() => {
 	// console.log( contarOvejas([ { name: 'Noa', color: 'azul' }, { name: 'Euge', color: 'rojo' }, { name: 'Navidad', color: 'rojo' }, { name: 'Ki Na Ma', color: 'rojo' }, ]));
@@ -44,4 +45,5 @@ const countDecorations = require('./Challenge22/index');
 	// console.log(pangram('Extraño pan de col y kiwi se quemó bajo fugaz vaho'));
 	// console.log(canCarry(4, [[2, 5, 8],[3, 6, 10],]));
 	// console.log(countDecorations({value: 1, left: { value: 2, left: null, right: null, }, right: { value: 3, left: null, right: null, },}));
+	// console.log(canReconfigure('MMM', 'MID'));
 })();
