@@ -46,6 +46,6 @@ const checkIsSameTree = require('./Challenge24/index');
 	// console.log(pangram('Extraño pan de col y kiwi se quemó bajo fugaz vaho'));
 	// console.log(canCarry(4, [[2, 5, 8],[3, 6, 10],]));
 	// console.log(countDecorations({value: 1, left: { value: 2, left: null, right: null, }, right: { value: 3, left: null, right: null, },}));
-	// console.log(canReconfigure('MMM', 'MID'));
+	// console.log(canReconfigure('XBOX', 'XXBO'));
 	// console.log(checkIsSameTree({value: 1,left: { value: 2, left: null, right: null },right: { value: 3, left: null, right: null },},{value: 1,left: { value: 2, left: null, right: null },right: { value: 3, left: null, right: null },}));
 })();

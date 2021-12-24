@@ -1,6 +1,6 @@
 # \#23 ¿Puedes reconfigurar las fábricas para no parar de crear regalos?
 
-Estamos en la fábrica de Santa Claus 🎅 creando regalos como si no hubiera un mañana
+Estamos en la fábrica de Santa Claus 🎅 creando regalos como si no hubiera un mañana.
 
 Pensábamos que no íbamos a llegar pero Jelf Bezos ha tenido una idea genial para aprovechar las máquinas y optimizar al máximo la creación de regalos. 🎁
 
@@ -29,6 +29,20 @@ O -> U
 N -> FALLO
 */
 
+const from = 'XBOX'
+const to   = 'XXBO'
+const canReconfigure(from, to) // false
+/* no se puede hacer la transformación:
+X -> X
+B -> X (FALLO, no mantiene el orden de transformación)
+O -> B
+X -> O
+*/
+
+const from = 'XBOX'
+const to   = 'XOBX'
+const canReconfigure(from, to) // true
+
 const from = 'MMM'
 const to   = 'MID'
 cons canReconfigure(from, to) // false
@@ -41,4 +55,5 @@ M -> D (FALLO, asigna el mismo carácter a dos letras distintas)
 const from = 'AA'
 const to   = 'MID'
 cons canReconfigure(from, to) // false -> no tiene la misma longitud
+
 ```
