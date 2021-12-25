@@ -22,6 +22,7 @@ const canCarry = require('./Challenge21/index');
 const countDecorations = require('./Challenge22/index');
 const canReconfigure = require('./Challenge23/index');
 const checkIsSameTree = require('./Challenge24/index');
+const canMouseEat = require('./Challenge25/index');
 
 (() => {
 	// console.log( contarOvejas([ { name: 'Noa', color: 'azul' }, { name: 'Euge', color: 'rojo' }, { name: 'Navidad', color: 'rojo' }, { name: 'Ki Na Ma', color: 'rojo' }, ]));
@@ -48,4 +49,5 @@ const checkIsSameTree = require('./Challenge24/index');
 	// console.log(countDecorations({value: 1, left: { value: 2, left: null, right: null, }, right: { value: 3, left: null, right: null, },}));
 	// console.log(canReconfigure('XBOX', 'XXBO'));
 	// console.log(checkIsSameTree({value: 1,left: { value: 2, left: null, right: null },right: { value: 3, left: null, right: null },},{value: 1,left: { value: 2, left: null, right: null },right: { value: 3, left: null, right: null },}));
+	// console.log(canMouseEat('down', [[' ', ' ', ' '],[' ', ' ', 'm'],[' ', ' ', '*'],]));
 })();
